@@ -1,0 +1,89 @@
+/* General Reset */
+body, h1, p, nav, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+
+nav a:hover, nav a[aria-current="page"] {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #004080;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Chart Container */
+#chart {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* Reduced width */
+    max-width: 800px; /* Maximum width */
+    height: 400px; /* Reduced height */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
